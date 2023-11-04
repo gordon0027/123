@@ -1,0 +1,89 @@
+#shriftName {
+	font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+#shriftDescription {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+.box {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: black 2px solid;
+
+}
+
+.header {
+    display: inline-flex;
+    background-color: orange;
+    height: 150px;
+    width: 1490px;
+    margin-right: none;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+}
+
+.footer {
+    display: inline-flex;
+    background-color: orange;
+    height: 150px;
+    width: 1490px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+}      
+
+.leftside {
+    display: inline-flex;
+    background-color: rgb(9, 232, 232);
+    height: 800px;
+    width: 310px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+}   
+
+.rightside {
+    display: inline-flex;
+    background-color: rgb(9, 232, 232);
+    height: 800px;
+    width: 310px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+}
+
+.midlle {
+    display: inline-flex;
+    background-color: rgb(28, 17, 183);
+    height: 800px;
+    width: 850px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+}
